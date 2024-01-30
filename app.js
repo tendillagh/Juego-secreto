@@ -62,7 +62,7 @@ asignartextoelemento('p',"ya se sortearon todos los numeros posibles");
 
 }
 function condicionesiniciales(){
-    asignartextoelemento('h1', "Juego del numero nuevo"); 
+    asignartextoelemento('h1', "Juego del numero secreto"); 
 asignartextoelemento('p', `Indica un número del 1 al ${numeromaximo}`);
 numerosecreto = generarnumerosecreto();
 numintentos=1; 
