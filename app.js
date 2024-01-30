@@ -48,7 +48,7 @@ console.log(numerogenerado);
 console.log(listanumerossorteados);
 // si ya sorteamos todos los numeros.... mostrar mensaje
 if(listanumerossorteados.length==numeromaximo){
-asignartextoelemento('p',"Ya se sortearon todos los numeros posibles");
+asignartextoelemento('p',"Ya se sortearon todos los números posibles");
 }else{
     // si el num generado esta incluido en la lista
     if (listanumerossorteados.includes(numerogenerado)){
@@ -62,7 +62,7 @@ asignartextoelemento('p',"Ya se sortearon todos los numeros posibles");
 
 }
 function condicionesiniciales(){
-    asignartextoelemento('h1', "Juego del némero secreto"); 
+    asignartextoelemento('h1', "Juego del número secreto"); 
 asignartextoelemento('p', `Indica un número del 1 al ${numeromaximo}`);
 numerosecreto = generarnumerosecreto();
 numintentos=1; 
